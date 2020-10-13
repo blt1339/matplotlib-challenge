@@ -58,7 +58,6 @@ combined_mouse_df
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -256,7 +255,6 @@ dupicates_count_mouse_df
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -328,7 +326,6 @@ duplicates_combined_mouse_df
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -518,7 +515,6 @@ cleaned_combined_mouse_df
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -722,7 +718,6 @@ summary_statistics_df
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -862,7 +857,6 @@ summary_statistics_df
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
