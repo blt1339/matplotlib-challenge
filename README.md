@@ -26,7 +26,7 @@
 
 This trend continues when a random mouse was investigaged for each of the 4 suggested Drug Regimens
 
-![line_chart](../Images/random_mouse_line.jpg)
+![line_chart](Images/random_mouse_line.jpg)
 
 * The mice are evenly split between Male (50.40 %) and Female (49.60 %)
 
