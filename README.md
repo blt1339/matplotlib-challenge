@@ -13,14 +13,14 @@
 |Drug Regimen|All Data Points Average Tumor Volume|Last Average Tumor Volume|
 |------------|------------------------------------|-------------------------|
 |Capomulin   |         	                     40.68|	                   36.67|
-|Ceftamin	 |                               52.60|	                   57.75|
+|Ceftamin	   |                               52.60|	                   57.75|
 |Infubinol   |                               52.89|                    58.18|
 |Ketapril    |                               55.24|	                   62.81|
-|Naftisol	 |                               54.33|	                   61.21|
-|Placebo 	 |                               54.03|	                   60.51|
-|Propriva	 |                               52.32|	                   56.49|
-|Ramicane	 |                               40.22|	                   36.19|
-|Stelasyn	 |                               54.23|	                   61.00|
+|Naftisol 	 |                               54.33|	                   61.21|
+|Placebo 	   |                               54.03|	                   60.51|
+|Propriva	   |                               52.32|	                   56.49|
+|Ramicane	   |                               40.22|	                   36.19|
+|Stelasyn	   |                               54.23|	                   61.00|
 |Zoniferol   |                               53.23|	                   59.18|
 |All Drugs   |                               50.98|	                   54.97|
 
@@ -69,7 +69,6 @@ combined_mouse_df
     .dataframe thead th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -266,7 +265,6 @@ dupicates_count_mouse_df
     .dataframe thead th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -337,7 +335,6 @@ duplicates_combined_mouse_df
     .dataframe thead th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -526,7 +523,6 @@ cleaned_combined_mouse_df
     .dataframe thead th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -729,7 +725,6 @@ summary_statistics_df
     .dataframe thead th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -872,7 +867,6 @@ summary_statistics_df
     .dataframe thead tr:last-of-type th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -1351,7 +1345,7 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+![png](Images/output_18_0.png)
 
 
 ## Quartiles, Outliers and Boxplots
