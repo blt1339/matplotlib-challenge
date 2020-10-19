@@ -1298,7 +1298,7 @@ last_full_data_df = pd.merge(cleaned_combined_mouse_df,last_records_df,how='inne
 
 ```python
 # Put treatments into a list for for loop (and later for plot labels)
-drugs = cleaned_combined_mouse_df.groupby("Drug Regimen").nunique()['Drug Regimen'].index.tolist()
+drugs = cleaned_combined_mouse_df.groupby("Drug Regimen").nunique().index.tolist()
 box_drugs = ['Capomulin','Ramicane','Infubinol', 'Ceftamin']
 ```
 
