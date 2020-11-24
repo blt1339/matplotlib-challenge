@@ -18,10 +18,29 @@
     vertical-align: top;
     color: white;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 100px;
  }
 
  .landing .summary {
+    text-align:center;
+    margin-left: 20px;
+    width:600px;
+
+
+ }
+
+ .no-mice-per-regimen {
+    background-color:rgb(77, 73, 73);
+    width: 800px;
+    height: 560px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+ }
+
+ .no-mice-per-regimen .summary {
     text-align:center;
     margin-left: 20px;
     width:600px;
