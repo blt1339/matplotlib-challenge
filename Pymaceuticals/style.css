@@ -63,7 +63,7 @@
 
 .no-data-points-per-regimen .summary {
    text-align:center;
-   margin-left: 20px;
+   margin-left: 100px;
    width:600px;
 
 }
@@ -78,6 +78,24 @@
     margin-top: 10px;
     margin-left: 50px;
  }
+
+ .mouse-gender {
+   background-color:rgb(199, 195, 195);
+   width: 800px;
+   height: 560px;
+   display: inline-block;
+   vertical-align: top;
+   color: white;
+   margin-top: 10px;
+   margin-left: 100px;
+}
+
+.mouse-gender .summary {
+   text-align:center;
+   margin-left: 20px;
+   width:600px;
+
+}
 
  .summarywords {
     font-size: 14px;
@@ -95,10 +113,19 @@
  .no-mice-per-regimen .summary {
    font-size: 30px;
 }
+.mouse-gender .summary {
+   font-size: 30px;
+   text-align:center;
+}
 
 }
 .visualizations h1 {
     font-size: 32px;
     margin-left: 50px;
 
+}
+
+
+.mouse-gender h1 {
+   font-size:28px;
 }
