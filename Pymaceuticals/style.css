@@ -1,0 +1,58 @@
+.navbar-custom { 
+    color: white; 
+    background-color:rgb(77, 73, 73);
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color:white;  
+}
+.navbar-nav > li > .dropdown-menu a {
+     color: black; 
+ }
+
+ .landing {
+    background-color:rgb(77, 73, 73);
+    width: 800px;
+    height: 560px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+ }
+
+ .landing .summary {
+    text-align:center;
+    margin-left: 20px;
+    width:600px;
+
+
+ }
+ 
+ .visualizations {
+    background-color:rgb(77, 73, 73);
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+ }
+
+ .summarywords {
+    font-size: 14px;
+    width: 700px;
+    display: inline-block;
+    text-align:center;
+    margin-left: 20px;
+ }
+
+ 
+
+}
+.visualizations h1 {
+    font-size: 32px;
+    margin-left: 50px;
+
+}
