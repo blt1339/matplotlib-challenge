@@ -175,7 +175,13 @@
    margin-left: 20px;
    color: black;   
 }
-
+.observationssummarywords {
+   font-size: 16px;
+   width: 700px;
+   display: inline-block;
+   margin-left: 20px;
+   color: black;   
+}
  .summarywords {
     font-size: 20px;
     width: 700px;
