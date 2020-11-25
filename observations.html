@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <html>
+        <head>
+            <title>Observations</title>
+            <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/superhero/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNjeHu" crossorigin="anonymous">        <meta charset = "UTF-8">
+            <link rel="stylesheet" type = "text/css" href= "style.css">
+            </head>
+<body>
+
+    <nav class="navbar navbar-custom navbar-expand-sm navbar-dark ">
+        <a class="navbar-brand" href="index.html">Pymaceuticals</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Charts</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="no-mice-per-regimen.html"># Mice Per Regimen</a>
+                        <a class="dropdown-item" href="no-data-points-per-regimen.html"># Data Points Per Regimen</a>
+                        <a class="dropdown-item" href="mouse-gender.html">Mouse Gender Percents</a>
+                        <a class="dropdown-item" href="random-mouse-tumor-volume.html">Ramdon Mouse Tumor Volume</a>
+                        <a class="dropdown-item" href="final-tumor-volume.html">Final Tumor Volume</a>
+                        <a class="dropdown-item" href="linear-regression.html">Linear Regression</a>
+                    </div>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="observations.html">Observations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sumstat.html">Drug Summary Statistics</a>
+                </li>            
+            </ul>
+        </div>
+    </nav>
+
+    <div class="parent-container d-flex">
+        <div class="row">
+            <container class='observations'>
+                <div class="col-lg-8">
+                    <h1 class='summary'>Observations</h1>
+
+                    <P class='summarywords'>
+                        * The number of mice utilized for each drug regimen is consistant at 24 or 25 mice. But the actual datapoints varies between 148 and 230.
+                        * There is a positive correlation between Mouse Weight and Tumor Volume. As the mouse weight increases so does the tumor volume.
+                        * The mice are evenly split between Male (50.40 %) and Female (49.60 %)
+                        * The two best drugs in terms of last tumor volume are Capomulin and Ramicane.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Drug Regimen</th>
+                            <th>Average Tumor Volume</th>
+                            <th>Last Average Tumor Volume</th>
+                        </tr>
+                        <tr>
+                            <td>Capomulin</td>
+                            <td>40.68</td>
+                            <td>36.67</td>
+                        </tr>
+                        <tr>
+                            <td>Ceftamin</td>
+                            <td>52.60</td>
+                            <td>57.75</td>
+                            </tr>
+                        <tr>
+                            <td>Infubinol</td>
+                            <td>52.89</td>
+                            <td>58.18</td>
+                        </tr>
+                        <tr>
+                            <td>Ketapril</td>
+                            <td>55.24</td>
+                            <td>62.81</td>
+                        </tr>
+                        <tr>
+                            <td>Naftisol</td>
+                            <td>54.33</td>
+                            <td>61.21</td>
+                        </tr>
+                        <tr>
+                            <td>Placebo</td>
+                            <td>54.03</td>
+                            <td>60.51</td>
+                        </tr>
+                        <tr>
+                            <td>Propriva</td>
+                            <td>52.32</td>
+                            <td>56.49</td>
+                        </tr>
+                        <tr>
+                            <td>Ramicane</td>
+                            <td>40.22</td>
+                            <td>36.19</td>
+                        </tr>
+                        <tr>
+                            <td>Stelasyn</td>
+                            <td>54.23</td>
+                            <td>61.00</td>
+                        </tr>
+                        <tr>
+                            <td>EveZoniferol</td>
+                            <td>53.23</td>
+                            <td>59.18</td>
+                        </tr>
+                        <tr>
+                            <td>All Drugs</td>
+                            <td>50.98</td>
+                            <td>54.97</td>
+                        </tr>                                                                                                                                                                                                                                                                            
+                    </table>
+               </div>
+            </container>
+            <container class='visualizations'>
+                <div>
+                    <h1>Visualizations</h1>
+                    <div class = "row justify-content-center">
+                        <div class = "col-lg-6 col-sm-4">
+                            <a href="no-mice-per-regimen.html"><img src="../Images/output_13_0.png" class="mx-auto d-block" alt="output_13_0.png" style="width:100%;height:90%"></a>
+                        </div>                         
+                        <div class = "col-lg-6 col-sm-4">
+                            <a href="no-data-points-per-regimen.html"><img src="../Images/output_14_0.png" class="mx-auto d-block" alt="output_14_0.png" style="width:100%;height:90%"></a>
+                        </div>                         
+                        <div class = "col-lg-6 col-sm-4">
+                            <a href="mouse-gender.html"><img src="../Images/output_17_1.png" class="mx-auto d-block" alt="output_17_1.png" style="width:100%;height:90%"></a>
+                        </div>  
+                        <div class = "col-lg-6 col-sm-4">    
+                            <a href="random-mouse-tumor-volume.html"><img src="../Images/random_mouse_line.jpg" class="mx-auto d-block" alt="random_mouse_line.jpg" style="width:100%;height:90%"></a>
+                        </div>
+                        <div class = "col-lg-6 col-sm-4">
+                            <a href="final-tumor-volume.html"><img src="../Images/output_39_0.png" class="mx-auto d-block" alt="output_39_0.png" style="width:100%;height:90%"></a>
+                        </div>  
+                        <div class = "col-lg-6 col-sm-4">    
+                            <a href="linear-regression.html"><img src="../Images/output_48_1.png" class="mx-auto d-block" alt="output_48_1.png" style="width:100%;height:90%"></a>
+                        </div>                            
+                    </div>                    
+                </div>
+            </container>
+        </div>
+    </div>
+
+
+
+
+    </container>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
