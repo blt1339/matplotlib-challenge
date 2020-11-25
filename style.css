@@ -26,9 +26,7 @@
  }
 
  .landing .summary {
-
-    margin-left: 20px;
-    width:600px;
+    width:800px;
 
 
  }
@@ -46,8 +44,7 @@
 
  .no-mice-per-regimen .summary {
     text-align:center;
-    margin-left: 20px;
-    width:600px;
+    width:800px;
 
  }
  .no-data-points-per-regimen {
@@ -63,8 +60,7 @@
 
 .no-data-points-per-regimen .summary {
    text-align:center;
-   margin-left: 100px;
-   width:600px;
+   width:800px;
 
 }
  
@@ -92,8 +88,7 @@
 
 .mouse-gender .summary {
    text-align:center;
-   margin-left: 20px;
-   width:600px;
+   width:800px;
 
 }
 .random-mouse-tumor-volume {
@@ -109,8 +104,7 @@
 
 .random-mouse-tumor-volume .summary {
    text-align:center;
-   margin-left: 20px;
-   width:600px;
+   width:800px;
 
 }
 .final-tumor-volume {
@@ -126,8 +120,7 @@
 
 .final-tumor-volume .summary {
    text-align:center;
-   margin-left: 20px;
-   width:600px;
+   width:800px;
 
 }
 .linear-regression {
@@ -143,8 +136,7 @@
 
 .linear-regression .summary {
    text-align:center;
-   margin-left: 20px;
-   width:600px;
+   width:800px;
 
 }
 
@@ -178,7 +170,7 @@
 .summary-statistic .summary {
    text-align:center;
    margin-left: 20px;
-   width:600px;
+   width:1000px;
 
 }
 
