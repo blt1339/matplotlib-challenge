@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <html>
+        <head>
+            <title>Drug Summary Statistics</title>
+            <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/superhero/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNjeHu" crossorigin="anonymous">        <meta charset = "UTF-8">
+            <link rel="stylesheet" type = "text/css" href= "style.css">
+            </head>
+<body>
+
+    <nav class="navbar navbar-custom navbar-expand-sm navbar-dark ">
+        <a class="navbar-brand" href="index.html">Pymaceuticals</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Charts</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="no-mice-per-regimen.html"># Mice Per Regimen</a>
+                        <a class="dropdown-item" href="no-data-points-per-regimen.html"># Data Points Per Regimen</a>
+                        <a class="dropdown-item" href="mouse-gender.html">Mouse Gender Percents</a>
+                        <a class="dropdown-item" href="random-mouse-tumor-volume.html">Ramdon Mouse Tumor Volume</a>
+                        <a class="dropdown-item" href="final-tumor-volume.html">Final Tumor Volume</a>
+                        <a class="dropdown-item" href="linear-regression.html">Linear Regression</a>
+                    </div>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="observations.html">Observations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sumstat.html">Drug Summary Statistics</a>
+                </li>            
+            </ul>
+        </div>
+    </nav>
+
+    <div class="summary-statistics">
+        <h1>Drug Summary Statistics</h1>
+    
+        <p class='summary-statistics-instruct'>The following table includes the summary statistics for each drug.</p>
+        
+        
+        <table class="dataframe">
+            <thead>
+            <tr style="text-align: left;">
+                <th>Drug Regimen</th>
+                <th>Mean</th>
+                <th>Median</th>
+                <th>Variance</th>
+                <th>Standard Deviation</th>
+                <th>Standard Error of Measurement</th>
+            </tr>
+            </thead>
+         <tbody>
+            <tr>
+                <td>Capomulin</td>
+               <td>40.675741</td>
+               <td>41.557809</td>
+               <td>24.947764</td>
+               <td>4.994774</td>
+               <td>0.329346</td>
+              </tr>
+           <tr>
+               <td>Ceftamin</td>               
+               <td>52.591172</td>
+               <td>51.776157</td>
+               <td>39.290177</td>
+            <td>6.268188</td>
+            <td>0.469821</td>
+          </tr>
+          <tr>
+            <td>Infubinol</td>
+            <td>52.884795</td>
+            <td>51.820584</td>
+            <td>43.128684</td>
+            <td>6.567243</td>
+            <td>0.492236</td>
+          </tr>
+          <tr>
+            <td>Ketapril</td>
+            <td>55.235638</td>
+            <td>53.698743</td>
+            <td>68.553577</td>
+            <td>8.279709</td>
+            <td>0.603860</td>
+          </tr>
+          <tr>
+            <td>Naftisol</td>
+            <td>54.331565</td>
+            <td>52.509285</td>
+            <td>66.173479</td>
+            <td>8.134708</td>
+            <td>0.596466</td>
+          </tr>
+          <tr>
+            <td>Placebo</td>
+            <td>54.033581</td>
+            <td>52.288934</td>
+            <td>61.168083</td>
+            <td>7.821003</td>
+            <td>0.581331</td>
+          </tr>
+          <tr>
+            <td>Propriva</td>
+            <td>52.320930</td>
+            <td>50.446266</td>
+            <td>43.852013</td>
+            <td>6.622085</td>
+            <td>0.544332</td>
+          </tr>
+          <tr>
+            <td>Ramicane</td>
+            <td>40.216745</td>
+            <td>40.673236</td>
+            <td>23.486704</td>
+            <td>4.846308</td>
+            <td>0.320955</td>
+          </tr>
+          <tr>
+            <td>Stelasyn</td>
+            <td>54.233149</td>
+            <td>52.431737</td>
+            <td>59.450562</td>
+            <td>7.710419</td>
+            <td>0.573111</td>
+          </tr>
+          <tr>
+            <td>Zoniferol</td>
+            <td>53.236507</td>
+            <td>51.818479</td>
+            <td>48.533355</td>
+            <td>6.966589</td>
+            <td>0.516398</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

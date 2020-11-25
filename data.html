@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <html>
+        <head>
+            <title>Observations</title>
+            <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/superhero/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNjeHu" crossorigin="anonymous">        <meta charset = "UTF-8">
+            <link rel="stylesheet" type = "text/css" href= "style.css">
+            </head>
+<body>
+
+    <nav class="navbar navbar-custom navbar-expand-sm navbar-dark ">
+        <a class="navbar-brand" href="index.html">Pymaceuticals</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Charts</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="no-mice-per-regimen.html"># Mice Per Regimen</a>
+                        <a class="dropdown-item" href="no-data-points-per-regimen.html"># Data Points Per Regimen</a>
+                        <a class="dropdown-item" href="mouse-gender.html">Mouse Gender Percents</a>
+                        <a class="dropdown-item" href="random-mouse-tumor-volume.html">Ramdon Mouse Tumor Volume</a>
+                        <a class="dropdown-item" href="final-tumor-volume.html">Final Tumor Volume</a>
+                        <a class="dropdown-item" href="linear-regression.html">Linear Regression</a>
+                    </div>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="observations.html">Observations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sumstat.html">Drug Summary Statistics</a>
+                </li>            
+            </ul>
+        </div>
+    </nav>
+
+    <div class="data">
+        <h1>Data</h1>
+    
+        <p class='data-instruct'>The following table includes the summary statistics for each drug.</p>
+    
+        <table border=0 class="dataframe">
+            <thead>
+                <tr class='table-heading' style="text-align: left;">
+                    <th>Drug Regimen</th>
+                    <th>Mean</th>
+                    <th>Variance</th>
+                    <th>Standard Deviation</th>
+                    <th>Standard Error of Measurement</th>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Capomulin</td>
+                    <td>40.675741</td>
+                    <td>41.557809</td>
+                    <td>24.947764</td>
+                    <td>4.994774</td>
+                    <td>0.329346</td>
+                </tr>
+            </tbody>
+        </table>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
